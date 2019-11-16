@@ -1,0 +1,20 @@
+class PrimeDirective{
+// This project identifies if a number is prime or not via the for loop 
+   
+ //isPrime method initiated here
+ public boolean isPrime(int number){
+   if (number==2){return true;}
+   else if(number<2){returnfalse;}
+   for(int i=2;i<number; i++){if number%i==0){return false;}}
+       return true;}
+       
+  // Main method begins here
+  public static void main(String[] args){
+  PrimeDirective pd= new PrimeDirective();
+  System.out.println(pd.(6));
+  
+    }
+  
+  }
+  
+  
